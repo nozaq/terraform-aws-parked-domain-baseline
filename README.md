@@ -66,5 +66,9 @@ module "parked_domain" {
 No outputs.
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
+## Related modules
+
+- [terraform-google-parked-domain-baseline](https://github.com/nozaq/terraform-google-parked-domain-baseline): The module to accomplish same outcome with GCP Cloud DNS instead of AWS Route53.
+
 [M3AAWG Protecting Parked Domains Best Common Practices]: https://www.m3aawg.org/sites/default/files/m3aawg_parked_domains_bcp-2022-06.pdf
 [RFC 7505]: https://datatracker.ietf.org/doc/rfc7505/
